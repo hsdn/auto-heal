@@ -1,31 +1,11 @@
 {
-  "files": {
-    "config.json": {
-        "overwrite": false,
-        "hash": "69c206298dd7705762e602b1bed66cd9a13aa90e9c6ba6900f486956dd59c8e2"
-    },
-    "index.js": "50afce6bef0c40e75f2b2cae06b236151329b9c61d9450bc20324ccbd18c27b2",
-    "module.json": "d21df02f2d9406d01c11514ba88437d801dcfb31ec8911af9f94a5f1b344a3ec",
-    "settings_migrator.js": "457017eb5eb7f9cd6ee1dd0b463082e62a401724af7ba84b60d0c1dc822786cf"
-  },
-  "defs": {
-    "C_CAN_LOCKON_TARGET": 3,
-    "C_PLAYER_LOCATION": 5,
-    "C_START_SKILL": 7,
-    "S_BAN_PARTY_MEMBER": 1,
-    "S_CREST_APPLY": 2,
-    "S_CREST_INFO": 2,
-    "S_DEAD_LOCATION": 2,
-    "S_INSTANT_DASH": 3,
-    "S_LEAVE_PARTY": 1,
-    "S_LEAVE_PARTY_MEMBER": 2,
-    "S_LOGOUT_PARTY_MEMBER": 1,
-    "S_PARTY_MEMBER_CHANGE_HP": 4,    
-    "S_PARTY_MEMBER_LIST": 7,
-    "S_PARTY_MEMBER_STAT_UPDATE": 3,    
-    "S_SPAWN_ME": 3,
-    "S_SPAWN_USER": 15,
-    "S_USER_LOCATION": 5,
-    "S_USER_LOCATION_IN_ACTION": 2
-  }
+    "files": {
+        "config.json": {
+			"overwrite": false,
+			"hash": "587bd6b05d5f53bca6abc0a10a71b5f19fb33512a144b619a0bf469cf7b5d66c"
+		},
+        "index.js": "5b3f8eaa69c6b1c3950221806583230a6c5c6a7c5216ddf3929f0951257a8725",
+        "module.json": "992ccca15a09437b74caded28d2f6af8fea5c533b2153ab22995e32cea13203b",
+        "settings_migrator.js": "d179ced619b903e02b5591ad25a4070351b777165f028bd274d60567d9a1bd5b"
+    }
 }

@@ -16,9 +16,9 @@ const DefaultSettings = {
     "autoHeal": true,     // enable healing skills
     "autoCleanse": true,  // enable mystic cleanse
     "hpCutoff": 97,       // (healing only) ignore members that have more HP% than this
-    "maxDistance": 35,    // in-game meters. can work up to 35m
-    "lockSpeed": 30,       // delay for locking on targets.
-    "castSpeed": 100       // delay for casting skills. castSpeed needs to be greater than lockSpeed.
+    "maxDistance": 27,    // in-game meters. can work up to 35m
+    "lockSpeed": 45,       // delay for locking on targets.
+    "castSpeed": 150       // delay for casting skills. castSpeed needs to be greater than lockSpeed.
 }
 
 module.exports = function MigrateSettings(from_ver, to_ver, settings) {
