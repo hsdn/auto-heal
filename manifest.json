@@ -1,11 +1,28 @@
 {
     "files": {
-        "config.json": {
-			"overwrite": false,
-			"hash": "587bd6b05d5f53bca6abc0a10a71b5f19fb33512a144b619a0bf469cf7b5d66c"
-		},
-        "index.js": "fe1c7d737522bd8512abbbe66cc50561ac53e29f2835e7b283c0cf1c5d04a234",
-        "module.json": "992ccca15a09437b74caded28d2f6af8fea5c533b2153ab22995e32cea13203b",
-        "settings_migrator.js": "d179ced619b903e02b5591ad25a4070351b777165f028bd274d60567d9a1bd5b"
+        "README.md": "19f7fe960e0178a1b0cfef5d0c0db2bc693af58daf66ada0c356ee9a1ee91b29",
+        "index.js": "90614e5dcbba52e43128a2d0176850c1cd30a237f68d2f857d989b119305ac85",
+        "module.json": "9661f0af57bd514d105427e9a454598f590ad9e1c068aa68b08ca302033742e7",
+        "settings_migrator.js": "f8728d2ae31140b22e6d61d530b4e66809ab4eebb53f1ec7c72793f2c26be934"
+    },
+    "defs": {
+        "C_CAN_LOCKON_TARGET": 3,
+        "C_PLAYER_LOCATION": 5,
+        "C_START_SKILL": 7,
+        "S_BAN_PARTY_MEMBER": 1,
+        "S_CREST_APPLY": 2,
+        "S_CREST_INFO": 2,
+        "S_DEAD_LOCATION": 2,
+        "S_INSTANT_DASH": 3,
+        "S_LEAVE_PARTY": 1,
+        "S_LEAVE_PARTY_MEMBER": 2,
+        "S_LOGOUT_PARTY_MEMBER": 1,
+        "S_PARTY_MEMBER_CHANGE_HP": 4,
+        "S_PARTY_MEMBER_LIST": 9,
+        "S_PARTY_MEMBER_STAT_UPDATE": 3,
+        "S_SPAWN_ME": 3,
+        "S_SPAWN_USER": 17,
+        "S_USER_LOCATION": 6,
+        "S_USER_LOCATION_IN_ACTION": 2
     }
 }

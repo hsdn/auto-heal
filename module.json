@@ -3,14 +3,13 @@
     "name": "auto-heal",
     "author": "teralove",
     "description": "Auto lockon and instantly heal/cleanse party members.",
-    "version": "102",
-    "donationUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=PXRFYB39SQP4A",
+    "version": "6/9/2021",
     "options": {
         "niceName": "Auto Heal",
-        "settingsVersion": 1,
+        "settingsVersion": 2,
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js"
     },
-    "servers": ["https://raw.githubusercontent.com/WithoutLogic/auto-heal/master/"],
-    "supportUrl": "https://github.com/WithoutLogic/auto-heal/issues"
+    "servers": ["https://raw.githubusercontent.com/hsdn/auto-heal/master/"],
+    "supportUrl": "https://github.com/hsdn/auto-heal/issues"
 }
