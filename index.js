@@ -123,13 +123,13 @@ module.exports = function AutoHeal(mod) {
 				}
 			});
 
-			hook("S_PARTY_MEMBER_STAT_UPDATE", 3, event => {
+			hook("S_PARTY_MEMBER_STAT_UPDATE", mod.majorPatchVersion >= 108 ? 4 : 3, event => {
 				if (mod.game.me.playerId == event.playerId) return;
 
 				const member = partyMembers.find(m => m.playerId === event.playerId);
 
 				if (member) {
-					member.hpP = (Number(event.curHp) / Number(event.maxHp)) * 100;
+					member.hpP = (Number(event.hp || event.curHp) / Number(event.maxHp)) * 100;
 					member.alive = event.alive;
 				}
 			});
