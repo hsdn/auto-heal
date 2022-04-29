@@ -43,7 +43,7 @@ module.exports = function AutoHeal(mod) {
 
 	function load() {
 		if (!hooks.length) {
-			hook("S_PARTY_MEMBER_LIST", 9, event => {
+			hook("S_PARTY_MEMBER_LIST", mod.majorPatchVersion == 92 ? 7 : 9, event => {
 				const copyMembers = partyMembers;
 				partyMembers = event.members.filter(m => m.playerId !== mod.game.me.playerId);
 
@@ -76,7 +76,7 @@ module.exports = function AutoHeal(mod) {
 				playerLocation = event;
 			});
 
-			hook("S_SPAWN_USER", 17, event => {
+			hook("S_SPAWN_USER", mod.majorPatchVersion == 92 ? 15 : 17, event => {
 				if (partyMembers.length != 0) {
 					const member = partyMembers.find(m => m.playerId === event.playerId);
 
@@ -89,7 +89,7 @@ module.exports = function AutoHeal(mod) {
 				}
 			});
 
-			hook("S_USER_LOCATION", 6, event => {
+			hook("S_USER_LOCATION", mod.majorPatchVersion >= 105 ? 6 : 5, event => {
 				const member = partyMembers.find(m => m.gameId === event.gameId);
 
 				if (member) {

@@ -1,8 +1,8 @@
 {
     "files": {
         "README.md": "19f7fe960e0178a1b0cfef5d0c0db2bc693af58daf66ada0c356ee9a1ee91b29",
-        "index.js": "5f755c77c9e3b3e44de8171f27d7119c54066a1e964b8ff8b48cb0caf608ca57",
-        "module.json": "d83d2215907bd461e962635747defba677582d3a2cb7bf38a7f125c0b0d6cf87",
+        "index.js": "e64b02ec3437e61154044c5d84a7d712b84e976cc8f8bd0629cea74866ea6bdc",
+        "module.json": "88afb6c4a36d92d9f68f91d1eb04a8432870b2226bafff6aeaa357bca7c549bd",
         "settings_migrator.js": "f8728d2ae31140b22e6d61d530b4e66809ab4eebb53f1ec7c72793f2c26be934"
     },
     "defs": {
@@ -18,11 +18,11 @@
         "S_LEAVE_PARTY_MEMBER": 2,
         "S_LOGOUT_PARTY_MEMBER": 1,
         "S_PARTY_MEMBER_CHANGE_HP": 4,
-        "S_PARTY_MEMBER_LIST": 9,
+        "S_PARTY_MEMBER_LIST": [7,9],
         "S_PARTY_MEMBER_STAT_UPDATE": 3,
         "S_SPAWN_ME": 3,
-        "S_SPAWN_USER": 17,
-        "S_USER_LOCATION": 6,
+        "S_SPAWN_USER": [15,17],
+        "S_USER_LOCATION": 5,
         "S_USER_LOCATION_IN_ACTION": 2
     }
 }

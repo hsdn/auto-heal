@@ -3,7 +3,7 @@
     "name": "auto-heal",
     "author": "teralove",
     "description": "Auto lockon and instantly heal/cleanse party members.",
-    "version": "8/2/2021",
+    "version": "4/29/2022",
     "options": {
         "niceName": "Auto Heal",
         "settingsVersion": 2,
