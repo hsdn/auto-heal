@@ -43,7 +43,7 @@ module.exports = function AutoHeal(mod) {
 
 	function load() {
 		if (!hooks.length) {
-			hook("S_PARTY_MEMBER_LIST", mod.majorPatchVersion == 92 ? 7 : 9, event => {
+			hook("S_PARTY_MEMBER_LIST", mod.majorPatchVersion >= 69 ? 8 : 7, event => {
 				const copyMembers = partyMembers;
 				partyMembers = event.members.filter(m => m.playerId !== mod.game.me.playerId);
 
